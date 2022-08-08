@@ -4,6 +4,6 @@ import App from './App';
 
 test('render test', () => {
   render(<App />);
-  const headingElement = screen.getByText(/Ti/i);
+  const headingElement = screen.getByText(/My Agora States/i);
   expect(headingElement).toBeInTheDocument();
 });
